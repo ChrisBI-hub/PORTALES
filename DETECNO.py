@@ -30,9 +30,9 @@ logger = logging.getLogger(__name__)
 
 # Configuración de rutas y credenciales
 DOWNLOAD_DIR = os.path.join(os.getcwd(), 'descargas')
-EMAIL_SENDER = 'tu_correo@gmail.com'          # Cambiar por correo emisor
-EMAIL_PASSWORD = 'tu_contraseña_app'          # Usar contraseña de aplicación
-EMAIL_RECIPIENT = 'administracion@abcsc.mx'
+EMAIL_SENDER = 'reportes.bi@abcsc.mx'          # Cambiar por correo emisor
+EMAIL_PASSWORD = 'jwvjdrvmprzrwzxy'          # Usar contraseña de aplicación
+EMAIL_RECIPIENT = ["sgonzalez@abcsc.mx", "administracion@abcsc.mx", "cxc@abcsc.mx"]
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
 
