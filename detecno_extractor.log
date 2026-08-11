@@ -1,0 +1,55 @@
+2026-08-11 09:31:47,356 - INFO - === INICIANDO EXTRACCIÓN DETECNO ===
+2026-08-11 09:32:23,760 - INFO - === INICIANDO EXTRACCIÓN DETECNO ===
+2026-08-11 09:32:23,760 - INFO - Período a extraer: 03/08/2026 - 09/08/2026
+2026-08-11 09:32:26,708 - INFO - Cargando página de login...
+2026-08-11 09:32:31,212 - INFO - Usuario ingresado
+2026-08-11 09:32:31,309 - INFO - Contraseña ingresada
+2026-08-11 09:32:41,638 - INFO - Login enviado
+2026-08-11 09:32:49,193 - ERROR - Error en login: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=150.0.7871.181); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x557df6d5e252 <unknown>
+#1 0x557df66d2458 <unknown>
+#2 0x557df66b6cfc <unknown>
+#3 0x557df66e22e7 <unknown>
+#4 0x557df675b543 <unknown>
+#5 0x557df67762c2 <unknown>
+#6 0x557df6751327 <unknown>
+#7 0x557df671b4fe <unknown>
+#8 0x557df671c395 <unknown>
+#9 0x557df6d20dfa <unknown>
+#10 0x557df6d1f7ac <unknown>
+#11 0x557df6d1f19e <unknown>
+#12 0x557df6d1fc29 <unknown>
+#13 0x557df6d0dd99 <unknown>
+#14 0x557df6d1ffdc <unknown>
+#15 0x557df6cf8349 <unknown>
+#16 0x557df6d490f9 <unknown>
+#17 0x557df6d492d4 <unknown>
+#18 0x557df6d5cb2e <unknown>
+#19 0x7fc9e2a22289 <unknown>
+
+2026-08-11 09:32:49,195 - ERROR - Error inesperado: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x557df6d5e252 <unknown>
+#1 0x557df66d2275 <unknown>
+#2 0x557df671ade5 <unknown>
+#3 0x557df675147a <unknown>
+#4 0x557df674b828 <unknown>
+#5 0x557df674aff9 <unknown>
+#6 0x557df6696e9a <unknown>
+#7 0x557df669775f <unknown>
+#8 0x557df6697dbf <unknown>
+#9 0x557df6d20dfa <unknown>
+#10 0x557df6d1f7ac <unknown>
+#11 0x557df6d1f19e <unknown>
+#12 0x557df6d1fc29 <unknown>
+#13 0x557df6d0dd99 <unknown>
+#14 0x557df6d1ffdc <unknown>
+#15 0x557df6cf8349 <unknown>
+#16 0x557df6695f37 <unknown>
+#17 0x557df669543d <unknown>
+#18 0x7fc9e29b6f77 <unknown>
+
+2026-08-11 09:32:49,214 - INFO - === FIN DEL PROCESO ===
