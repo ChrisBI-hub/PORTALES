@@ -16,15 +16,16 @@ import separacion
 INPUT_FILE = Path("detecno.xlsx")
 
 # Configuración de correo.
-CORREOS_DESTINO = ["cxc@abcsc.mx"]
+# CORREOS_DESTINO = ["cxc@abcsc.mx"]
+CORREOS_DESTINO = ["ccarbajal@abcsc.mx"]
 CORREOS_CC = [
-    "administracion@abcsc.mx",
+   # "administracion@abcsc.mx",
     "sgonzalez@abcsc.mx",
-    "ymontoya@abcsc.mx",
-    "contraloria@abcsc.mx",
-    "facturacion3@abcsc.mx",
-    "administracion2@abcsc.mx",
-    "gerenteadmin@abcsc.mx",
+   # "ymontoya@abcsc.mx",
+   # "contraloria@abcsc.mx",
+   # "facturacion3@abcsc.mx",
+   # "administracion2@abcsc.mx",
+   # "gerenteadmin@abcsc.mx",
 ]
 CORREO_REMITE = "reportes.bi@abcsc.mx"
 SMTP_HOST = "smtp.gmail.com"
