@@ -21,8 +21,6 @@ CORREOS_DESTINO = ["cxc@abcsc.mx"]
 CORREOS_CC = [
     "administracion@abcsc.mx",
     "sgonzalez@abcsc.mx",
-    #"ymontoya@abcsc.mx",
-    #"contraloria@abcsc.mx",
     "facturacion3@abcsc.mx",
     "administracion2@abcsc.mx",
     "gerenteadmin@abcsc.mx",
