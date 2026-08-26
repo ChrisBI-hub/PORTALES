@@ -7,6 +7,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from pathlib import Path
 
+import carga_bi
 import fechas
 import ped_detecno
 import separacion
@@ -87,6 +88,13 @@ def main() -> None:
 
         print(f"Archivo final generado correctamente: {final_path}")
         print("Correo enviado correctamente.")
+
+        # Paso 5: respaldar toda la información del portal en la base BI.
+        try:
+            loaded_rows = carga_bi.process_workbook(final_path)
+            print(f"Respaldo en BI completado: {loaded_rows} filas.")
+        except Exception as bi_exc:
+            print(f"Advertencia: no se pudo respaldar en BI: {bi_exc}")
 
     except Exception as exc:
         print(f"Error en el flujo DETECNO: {exc}")
